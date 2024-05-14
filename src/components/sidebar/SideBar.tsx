@@ -4,9 +4,9 @@ import {
   IoCalculator,
   IoFootball,
   IoHeartOutline,
-  IoLogoReact,
 } from "react-icons/io5";
 import { SidebarMenuItem } from "./SidebarMenuItem";
+
 
 const menuItems = [
   {
@@ -48,11 +48,10 @@ export const Sidebar = () => {
           <span>
             <Image
               className="rounded-full w-8 h-8"
-              src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c"
-              alt="User avatar"
+              src="https://i.ibb.co/sQ4Rhvn/photo.jpg"
+              alt="User"
               width={50}
               height={50}
-              priority
             />
           </span>
           <span className="text-sm md:text-base font-bold">
