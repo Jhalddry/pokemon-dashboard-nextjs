@@ -30,7 +30,6 @@ const pokemonsSlice = createSlice({
         state.favorites[id] = pokemon;
       }
 
-      //TODO: No se debe de hacer en Redux
       localStorage.setItem(
         "favorite-pokemons",
         JSON.stringify(state.favorites)
