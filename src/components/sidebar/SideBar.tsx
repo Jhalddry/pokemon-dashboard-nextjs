@@ -5,8 +5,7 @@ import {
   IoFootball,
   IoHeartOutline,
 } from "react-icons/io5";
-import { SidebarMenuItem } from "./SidebarMenuItem";
-
+import { SidebarMenuItem } from "./SideBarMenuItem";
 
 const menuItems = [
   {

@@ -55,7 +55,7 @@ export const PokemonCard = ({ pokemon }: Props) => {
             </div>
             <div className="pl-3">
               <p className="text-sm font-medium text-gray-800 leading-none">
-                {isFavorite ? "Favorito" : "Not Favorite"}
+                {isFavorite ? "Favorite" : "Not Favorite"}
               </p>
               <p className="text-xs text-gray-500">Tap to favorite</p>
             </div>
